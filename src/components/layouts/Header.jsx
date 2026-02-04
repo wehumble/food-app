@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false); //UI maincontent
   const location = useLocation();
 
   const navItems = [
